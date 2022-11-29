@@ -1,0 +1,14 @@
+{
+  "name": "rollup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c", 
+    "start": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": "Igor Zhigalov",
+  "license": "ISC",
+  "type": "module"
+}
