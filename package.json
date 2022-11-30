@@ -2,13 +2,19 @@
   "name": "rollup",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
-    "build": "rollup -c", 
+    "build": "rollup -c",
     "start": "rollup -c -w"
   },
   "keywords": [],
   "author": "Igor Zhigalov",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "rollup-plugin-img": "^1.1.0",
+    "rollup-plugin-styles": "^4.0.0"
+  }
 }
