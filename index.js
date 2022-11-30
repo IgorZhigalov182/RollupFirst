@@ -1,4 +1,4 @@
-import "index.css";
+import "./index.css";
 // const imageJS = require('imageJS');
 import imageJS from './assets/pic.jpg';
 
@@ -9,3 +9,4 @@ jsImage.className = 'jsImg';
 jsImage.src = imageJS;
 
 document.body.append(jsImage);
+// 
